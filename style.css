@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 16px;
+  background-color: rgb(32, 32, 32);
+  color: antiquewhite;
+  max-width: 2000px;
+}
+body {
+  font-family: sans-serif;
+}
+header,
+nav {
+  padding: 10px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 5px;
+  max-width: 900px;
+}
+.profile {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.name {
+  display: inline;
+  font-size: larger;
+  color: antiquewhite;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff7f7;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+select {
+  background-color: rgb(66, 66, 66);
+  border: none;
+  color: #fff7f7;
+  outline: none;
+  font-size: inherit;
+  font-weight: bold;
+}
+select :hover {
+  color: #555;
+}
+
+section#home {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  width: 350px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 20px;
+}
+
+section#home p {
+  text-align: center;
+  margin: 10px;
+}
+section#home h1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#line {
+  border-bottom: 1px solid #ccc;
+}
+#line-header {
+  border-bottom: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+aside ul li {
+  display: inline;
+  margin-right: 2.5px;
+}
+aside li img {
+  margin-top: 20px;
+  max-width: 80px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  margin-left: 12.5px;
+}
+
+section#services {
+  position: absolute;
+  width: 500px;
+  margin-left: 400px;
+}
+
+section#services h3 {
+  background-color: rgb(66, 66, 66);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.web-development {
+  background-color: rgb(66, 66, 66);
+  border-radius: 5px;
+  padding: 0.5px;
+  margin-top: 20px;
+}
+.web-development h6 {
+  font-size: 200%;
+  margin: 5px;
+}
+
+section#contact {
+  position: absolute;
+  text-align: left;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+section#contact input,
+section#contact textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+section#contact input[type="submit"] {
+  background-color: #180669;
+  border: 0;
+  color: #fffffa;
+  cursor: pointer;
+}
+section#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  margin: auto;
+}
+section#contact h3 {
+  margin: 5px;
+  padding: 5px;
+}
+
+section#services p,
+img {
+  width: 485px;
+  padding-left: 5px;
+}
+
+.footer {
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  font-size: small;
+  position: absolute;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer ul {
+  list-style: dot;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(118, 118, 118);
+}
+
+.footer p {
+  margin-top: 0;
+  font-size: 12px;
+  color: #666;
+}
+.cover-photo {
+  position: relative;
+  height: 500px;
+  background-image: url("./cover-photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
